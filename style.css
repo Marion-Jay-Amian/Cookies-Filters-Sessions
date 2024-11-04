@@ -1,0 +1,88 @@
+/* Style for the entire body */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b2cbf1;
+}
+
+/* Outer container to center the form */
+.outer-div {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #315078;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header style for form title */
+.first-layer-div h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #f8f7f7;
+}
+
+/* Form container */
+.second-layer-div form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Labels styling */
+.second-layer-div label {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+    color: #ffffff;
+}
+
+/* Input fields styling */
+.second-layer-div input[type="text"],
+.second-layer-div input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Checkbox styling */
+.second-layer-div input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 15px;
+    
+}
+
+/* Submit button styling */
+.second-layer-div input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.second-layer-div input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.second-layer-div p {
+    color: red;
+    font-size: 14px;
+}
